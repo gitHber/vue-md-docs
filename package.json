@@ -1,0 +1,37 @@
+{
+    "name": "vue-md-docs",
+    "version": "1.0.0",
+    "description": "A docs util about markdown for vue",
+    "main": "index.js",
+    "workspaces": [
+        "packages/**",
+        "examples/**"
+    ],
+    "directories": {
+        "example": "examples"
+    },
+    "scripts": {
+        "build:plugin": "pnpm run build --filter rollup-plugin-vue-md",
+        "dev:plugin": "pnpm run dev --filter plugin-demo",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gitHber/vue-md-docs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gitHber/vue-md-docs/issues"
+    },
+    "homepage": "https://github.com/gitHber/vue-md-docs#readme",
+    "dependencies": {
+        "typescript": "^4.2.4"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.22",
+        "jest": "^27.0.0-next.1",
+        "ts-jest": "^26.5.5"
+    }
+}

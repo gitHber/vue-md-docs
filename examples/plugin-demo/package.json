@@ -1,0 +1,26 @@
+{
+    "name": "plugin-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node build.mjs"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vue": "^2.6.12",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^18.0.0",
+        "@rollup/plugin-html": "^0.2.3",
+        "@rollup/plugin-node-resolve": "^11.2.1",
+        "@rollup/plugin-typescript": "^8.2.1",
+        "rollup": "^2.45.2",
+        "rollup-plugin-live-server": "^1.0.3",
+        "rollup-plugin-replace": "^2.2.0",
+        "rollup-plugin-vue": "5.x",
+        "rollup-plugin-vue-md": "workspace:^1.0.0"
+    }
+}
